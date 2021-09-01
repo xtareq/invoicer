@@ -1,0 +1,14 @@
+{
+  "name": "invoicer",
+  "version": "1.0.0",
+  "author": "Tareq Hossain",
+  "main": "lib/index.js",
+  "types": "lib",
+  "scripts": {
+    "build":"tsc -p ."
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.4.2"
+  }
+}
