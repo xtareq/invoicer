@@ -1,21 +1,22 @@
 {
   "name": "invoicer-html",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Nodejs invoice generator",
   "main": "lib/index.js",
   "directories": {
     "lib": "lib"
   },
-  "dependencies": {},
+  "dependencies": {
+    "mustache": "^4.2.0",
+    "puppeteer": "^10.2.0"
+  },
   "devDependencies": {
     "@types/mustache": "^4.1.2",
-    "mustache": "^4.2.0",
-    "puppeteer": "^10.2.0",
     "typescript": "^4.4.2"
   },
   "scripts": {
     "build": "tsc -p .",
-    "build:watch":"tsc -w"
+    "build:watch": "tsc -w"
   },
   "repository": {
     "type": "git",
